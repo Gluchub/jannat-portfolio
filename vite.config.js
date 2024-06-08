@@ -8,6 +8,11 @@ export default defineConfig({
     rollupOptions: {
       external: ['react-router-dom']
     }
+  },
+  build: {
+    rollupOptions: {
+      external: ['@emailjs/browser']
+    }
   }
 })
 
