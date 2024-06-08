@@ -6,12 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-router-dom']
-    }
-  },
-  build: {
-    rollupOptions: {
-      external: ['@emailjs/browser']
+      external: ['react-router-dom', '@emailjs/browser']
     }
   }
 })
